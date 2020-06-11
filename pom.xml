@@ -22,7 +22,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
- <!-- added -->
   <build>
     <!-- To define the plugin version in your parent POM -->
     <pluginManagement>
@@ -45,7 +44,6 @@
       ...
     </plugins>
   </build>
-  <!-- added ending-->
 <distributionManagement>
   <snapshotRepository>
     <id>snapshots</id>
