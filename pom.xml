@@ -23,12 +23,15 @@
     </dependency>
   </dependencies>
 <distributionManagement>
-   <!--<snapshotRepository>
+  <!-- for nexus repository
+  <snapshotRepository>
    <id>nexus</id>
     <name>snapshots</name>
     <url>http://18.220.213.184:8081/nexus/content/repositories/snapshots</url>
-  </snapshotRepository> -->
-    <snapshotRepository>
+  </snapshotRepository>
+    for nexus repository -->  
+  <!-- for jfrog artifactory -->
+  <snapshotRepository>
       <id>nexus</id>
         <name>snapshots</name>
         <url>http://18.220.213.184:8081/nexus/content/repositories/snapshots</url>
