@@ -24,11 +24,11 @@
   </dependencies>
 <distributionManagement>
   <snapshotRepository>
-    <id>nexus</id>
+    <!--<id>nexus</id>
     <name>snapshots</name>
     <url>http://18.220.213.184:8081/nexus/content/repositories/snapshots</url>
-    
-    <id>snapshots</id>
+    -->
+     <id>snapshots</id>
         <name>ip-172-31-5-250.us-east-2.compute.internal-snapshots</name>
         <url>http://18.217.38.34:8081/artifactory/demo-local</url>
     </snapshotRepository>
