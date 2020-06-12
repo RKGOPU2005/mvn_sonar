@@ -28,11 +28,6 @@
     <name>snapshots</name>
     <url>http://18.220.213.184:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository> -->
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-5-250.us-east-2.compute.internal-releases</name>
-        <url>http://18.217.38.34:8081/artifactory/demo-local</url>
-    </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-5-250.us-east-2.compute.internal-snapshots</name>
