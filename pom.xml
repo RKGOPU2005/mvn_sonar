@@ -32,10 +32,7 @@
     for nexus repository -->  
   <!-- for jfrog artifactory -->
   <snapshotRepository>
-      <id>nexus</id>
-        <name>snapshots</name>
-        <url>http://18.220.213.184:8081/nexus/content/repositories/snapshots</url>
-      <id>artifactory</id>
+     <id>artifactory</id>
         <name>ip-172-31-5-250.us-east-2.compute.internal-snapshots</name>
         <url>http://18.217.38.34:8081/artifactory/demo-local</url>
     </snapshotRepository>
