@@ -23,19 +23,17 @@
     </dependency>
   </dependencies>
 <distributionManagement>
-  <!-- for nexus repository
   <snapshotRepository>
    <id>nexus</id>
     <name>snapshots</name>
     <url>http://18.218.152.141:8081/nexus/content/repositories/snapshots</url>
-  </snapshotRepository>
-    for nexus repository -->  
-  <!-- for jfrog artifactory -->
+  </snapshotRepository> 
+  <!-- for jfrog artifactory
   <snapshotRepository>
      <id>artifactory</id>
         <name>ip-172-31-5-250.us-east-2.compute.internal-snapshots</name>
         <url>http://18.218.145.88:8081/artifactory/demo-local</url>
-    </snapshotRepository>
+    </snapshotRepository> -->
   </distributionManagement>
   
 </project>
