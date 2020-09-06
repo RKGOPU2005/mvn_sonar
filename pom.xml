@@ -22,7 +22,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-<distributionManagement>
+  
+<!-- <distributionManagement>
   <snapshotRepository>
    <id>nexus</id>
     <name>snapshots</name>
@@ -34,6 +35,18 @@
         <name>ip-172-31-5-250.us-east-2.compute.internal-snapshots</name>
         <url>http://18.218.145.88:8081/artifactory/demo-local</url>
     </snapshotRepository> -->
-  </distributionManagement>
+  </distributionManagement> -->
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-Q4GB49J-releases</name>
+        <url>http://localhost:8081/artifactory/grk-snapshot</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>DESKTOP-Q4GB49J-snapshots</name>
+        <url>http://localhost:8081/artifactory/grk-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
   
 </project>
