@@ -29,7 +29,7 @@
     <name>snapshots</name>
     <url>http://18.217.132.105:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository> 
-  <!-- for jfrog artifactory
+ for jfrog artifactory
   <snapshotRepository>
      <id>artifactory</id>
         <name>ip-172-31-5-250.us-east-2.compute.internal-snapshots</name>
