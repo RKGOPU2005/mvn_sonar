@@ -42,11 +42,11 @@
         <name>DESKTOP-Q4GB49J-releases</name>
         <url>http://localhost:8081/artifactory/grk-snapshot</url>
     </repository>
-    <snapshotRepository>
+   <!-- <snapshotRepository>
         <id>snapshots</id>
         <name>DESKTOP-Q4GB49J-snapshots</name>
         <url>http://localhost:8081/artifactory/grk-snapshot</url>
-    </snapshotRepository>
+    </snapshotRepository> -->
 </distributionManagement>
   
 </project>
